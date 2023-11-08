@@ -1,0 +1,19 @@
+{
+  "name": "obedbot",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/jsdom": "^21.1.5",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "html-to-text": "^9.0.5",
+    "openai": "latest",
+    "puppeteer": "^21.5.0",
+    "zod": "^3.22.4"
+  }
+}
